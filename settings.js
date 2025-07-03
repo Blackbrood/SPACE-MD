@@ -2,18 +2,18 @@ require('dotenv').config();
 
 module.exports = {
   SESSION_ID: process.env.SESSION_ID || '',
-  BOT_ADMIN: process.env.BOT_ADMIN || '254712345678',
+  BOT_ADMIN: process.env.BOT_ADMIN || '2348078112891',
   PORT: parseInt(process.env.PORT) || 20087,
-  GITHUB_USERNAME: process.env.GITHUB_USERNAME || '',
+  GITHUB_USERNAME: process.env.GITHUB_USERNAME || 'Blackbrood',
   BOT_PASSWORD: parseInt(process.env.BOT_PASSWORD) || 12345678,
   
    //Antidelete and Antiedit functionality, set true to enable and false to disable. (⚠️ This function consumes a lot of memory + storage, only enable if you have enough resources ⚠️)
-   ANTI_DELETE: process.env.ANTI_DELETE || 'false',
+   ANTI_DELETE: process.env.ANTI_DELETE || 'true',
   
   
   //⚠️ Premium users settings ⚠️
    PREMIUM_KEY: process.env.PREMIUM_KEY || '',
-   MAX_SESSIONS: parseInt(process.env.MAX_SESSIONS) || 3,
+   MAX_SESSIONS: parseInt(process.env.MAX_SESSIONS) || 20,
    EXPIRY: process.env.EXPIRY || ''
 };
 
